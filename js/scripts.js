@@ -17,15 +17,16 @@ $(document).ready(function() {
     event.preventDefault();
     
   });
-  $("#formTwo").submit(function() {
-    const color = $("input:radio[name=animal]:checked").val();
+
+  $("#formTwo").submit(function () {
+    const animal = $("input:radio[name=animal]:checked").val();
     
-    if (animal === Snake) {
+    if (animal === "Snake") {
       alert("SsssssssSSSssssss!");
-      $("#python").show();
+      $(".python").show();
     } else {
       alert("Shine bright like a diamond!")
-      $("#ruby").show();
+      $(".ruby").show();
     }
     
     

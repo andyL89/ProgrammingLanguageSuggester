@@ -49,18 +49,18 @@ ul {
   margin: auto;
 }
 
-.formTwo {
+#formTwo {
   /* width: 600px;
   border: 10px solid rgba(255, 171, 210, 0.523);
   padding: 30px; */
   margin: auto;
 }
 
-#python {
+.python {
   display: none;
 }
 
-#ruby {
+.ruby {
   display: none;
 }
 
