@@ -12,7 +12,7 @@
 <body>
   <div class="container">
     <h1>Programming Language Suggester</h1>
-    <h3>This questionaire is designed to help you find a programming language that is best for you.</h3>
+    <h3>This questionaire is designed to help you find a programming language that is the best fit for you.</h3>
     <!-- <h4>Let's get started!</h4> -->
     <form id="formOne">
       <div class="form-group">
@@ -32,8 +32,8 @@
         <input id="experience" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="troubleShoot">Would you consider computer trouble-shooting easy or hard?</label>
-        <input id="troubleShoot" class="form-control" type="text">
+        <label for="puzzle">Are you more interested in puzzles or videogames?</label>
+        <input id="puzzle" class="form-control" type="text">
       </div>
 
       <button type="submit" class="btn">Find my language!</button>
@@ -42,9 +42,15 @@
   <div id="confirmation">
     <h2>Almost there!</h2>
     <p>
-      Hello, <span class="name"></span>! Due to your interest in <span class="operatingSystem"></span> and <span class="whichEnd"></span>,
-      coupled with your <span class="experience"></span> level experience, we have narrowed it down to three options:
+      Hello, <span class="name"></span>! Based on your preference for <span class="operatingSystem"></span> and <span
+      class="whichEnd"></span> development,
+      coupled with your <span class="experience"></span> -level experience and interest in <span class="puzzle"></span>, we have narrowed it down to one of the following 3 languages:
     </p>
+    <ul>
+      <li>Ruby</li>
+      <li>C#</li>
+      <li>Python</li>
+    </ul>
   </div>
 </body>
 

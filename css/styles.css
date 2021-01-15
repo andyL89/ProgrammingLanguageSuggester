@@ -4,6 +4,8 @@ h1 {
 
 h2 {
   text-align: center;
+  font-style: italic;
+  margin-bottom: 15px;
 }
 
 h3 {
@@ -12,19 +14,20 @@ h3 {
   margin: 30px;
 }
 
-.btn {
-  background-color: rgb(131, 181, 255);
-  margin: 50px auto 100px;
-}
-
 p {
   text-align: center;
-  margin-bottom: 100px;
-  border: cadetblue;
 }
 
-#confirmation {
-  display: none;
+ul {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  list-style-type: none;
+}
+
+.btn {
+  background-color: rgb(131, 181, 255);
+  margin: 20px auto 100px;
 }
 
 .form-group {
@@ -32,6 +35,10 @@ p {
   width: 50%;
 }
 
-/* #formOne {
+#confirmation {
   display: none;
-} */
+  width: 600px;
+  border: 15px solid rgb(255, 233, 67);
+  padding: 30px;
+  margin: auto;
+}
