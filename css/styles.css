@@ -12,12 +12,7 @@ h3 {
   margin: 30px;
 }
 
-.btn1 {
-  background-color: rgb(131, 181, 255);
-  margin: 50px auto 100px;
-}
-
-.btn2 {
+.btn {
   background-color: rgb(131, 181, 255);
   margin: 50px auto 100px;
 }
@@ -37,10 +32,6 @@ p {
   width: 50%;
 }
 
-.formOne {
+/* #formOne {
   display: none;
-}
-
-.formTwo {
-  display: none;
-}
+} */
