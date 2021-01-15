@@ -14,8 +14,20 @@ h3 {
   margin: 30px;
 }
 
+h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
 p {
   text-align: center;
+}
+
+#box {
+  width: 600px;
+  border: 15px solid rgba(255, 233, 67, 0.543);
+  padding: 30px;
+  margin: auto;
 }
 
 ul {
@@ -39,9 +51,22 @@ ul {
   display: none;
 }
 
-#box {
+#lastQuestion {
+  display: none;
+}
+
+#formTwo {
   width: 600px;
-  border: 15px solid rgb(255, 233, 67);
+  border: 10px solid rgba(255, 171, 210, 0.523);
   padding: 30px;
   margin: auto;
+}
+
+.clickable {
+  cursor: pointer;
+  color:teal;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }

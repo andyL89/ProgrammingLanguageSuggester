@@ -15,10 +15,13 @@ $(document).ready(function () {
     $("#confirmation").show();
 
     event.preventDefault();
-
-    
-
-
   });
+
+    $('.clickable').click(function() {
+      $(".container").removeClass("#confirmation");
+      $(".container").addClass("#lastQuestion");
+  });
+
+
 });
 
