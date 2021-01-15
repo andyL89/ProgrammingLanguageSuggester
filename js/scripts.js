@@ -1,5 +1,5 @@
-$(document).ready(function () {
-  $("#formOne").submit(function (event1) {
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
     const nameInput = $("input#name").val();
     const operatingSystemInput = $("input#operatingSystem").val();
     const whichEndInput = $("input#whichEnd").val();
@@ -14,19 +14,21 @@ $(document).ready(function () {
 
     $(".confirmation").show();
 
-    event1.preventDefault();
-
+    event.preventDefault();
+    
   });
-  $("#formTwo").submit(function (event2) {
+  $("#formTwo").submit(function() {
     const color = $("input:radio[name=animal]:checked").val();
-
+    
     if (animal === Snake) {
+      alert("SsssssssSSSssssss!");
       $("#python").show();
     } else {
+      alert("Shine bright like a diamond!")
       $("#ruby").show();
     }
-
-    event2.preventDefault();
+    
+    
   })
 
 });
