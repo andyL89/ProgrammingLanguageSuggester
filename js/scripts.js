@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#formOne").submit(function (event) {
+  $("#formOne").submit(function (event1) {
     const nameInput = $("input#name").val();
     const operatingSystemInput = $("input#operatingSystem").val();
     const whichEndInput = $("input#whichEnd").val();
@@ -13,10 +13,21 @@ $(document).ready(function () {
     $(".puzzle").text(puzzleInput);
 
     $(".confirmation").show();
-    
-    
-    
-    event.preventDefault();
+
+    event1.preventDefault();
+
   });
+  $("#formTwo").submit(function (event2) {
+    const color = $("input:radio[name=animal]:checked").val();
+
+    if (animal === Snake) {
+      $("#python").show();
+    } else {
+      $("#ruby").show();
+    }
+
+    event2.preventDefault();
+  })
+
 });
 
