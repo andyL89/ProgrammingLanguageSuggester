@@ -37,6 +37,9 @@ ul {
 
 #confirmation {
   display: none;
+}
+
+#box {
   width: 600px;
   border: 15px solid rgb(255, 233, 67);
   padding: 30px;
