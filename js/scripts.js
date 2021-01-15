@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
+  $("#formTwo").submit(function(event) {
     const ageInput = $("input#age").val();
     const nameInput = $("input#name").val();
     const operatingSystemInput = $("input#operatingSystem").val();
