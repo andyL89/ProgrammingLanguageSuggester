@@ -2,7 +2,22 @@ h1 {
   text-align: center;
 }
 
-.btn {
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 125%;
+  margin: 30px;
+}
+
+.btn1 {
+  background-color: rgb(131, 181, 255);
+  margin: 50px auto 100px;
+}
+
+.btn2 {
   background-color: rgb(131, 181, 255);
   margin: 50px auto 100px;
 }
@@ -20,4 +35,12 @@ p {
 .form-group {
   margin: 20px;
   width: 50%;
+}
+
+.formOne {
+  display: none;
+}
+
+.formTwo {
+  display: none;
 }

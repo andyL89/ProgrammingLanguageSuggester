@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  $("#formTwo").submit(function(event) {
-    const ageInput = $("input#age").val();
+  $(".btn1").submit1(function(event) {
+    $("#formOne").show();
+    event.preventDefault();
+  // });
+  $("#formTwo").submit2(function(event) {
+    const ageInput = parseInt($("input#age").val());
     const nameInput = $("input#name").val();
     const operatingSystemInput = $("input#operatingSystem").val();
     const whichEndInput = $("input#whichEnd").val();
@@ -17,5 +21,6 @@ $(document).ready(function() {
     $("#confirmation").show();
 
     event.preventDefault();
+  });
   });
 });
