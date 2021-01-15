@@ -12,16 +12,11 @@ $(document).ready(function () {
     $(".experience").text(experienceInput);
     $(".puzzle").text(puzzleInput);
 
-    $("#confirmation").show();
-
+    $(".confirmation").show();
+    
+    
+    
     event.preventDefault();
   });
-
-    $('.clickable').click(function() {
-      $(".container").removeClass("#confirmation");
-      $(".container").addClass("#lastQuestion");
-  });
-
-
 });
 

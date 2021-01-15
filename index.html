@@ -13,7 +13,6 @@
   <div class="container">
     <h1>Programming Language Suggester</h1>
     <h3>This questionaire is designed to help you find a programming language that is the best fit for you.</h3>
-    <!-- <h4>Let's get started!</h4> -->
     <form id="formOne">
       <div class="form-group">
         <label for="name">What is your name?</label>
@@ -39,25 +38,23 @@
       <button type="submit" class="btn">Find my language!</button>
     </form>
 
-    <div id="confirmation">
-      <div id="box">
-        <h2>Almost there!</h2>
-        <p>
-          Hello, <span class="name"></span>! Based on your preference for <span class="operatingSystem"></span> and
-          <span class="whichEnd"></span> development,
-          coupled with your <span class="experience"></span>-level experience and interest in <span
-            class="puzzle"></span>, we have narrowed it down to one of the following 3 languages:
-        </p>
-        <ul>
-          <li>Ruby</li>
-          <li>C#</li>
-          <li>Python</li>
-        </ul>
-        <h4><span class="clickable">Just one more question!</span></h4>
-      </div>
-    </div>
-    <div id="lastQuestion">
-      <form id="formTwo">
+    <div class="confirmation">
+      <h2>Almost there!</h2>
+      <p>
+        Hello, <span class="name"></span>! Based on your preference for <span class="operatingSystem"></span> and
+        <span class="whichEnd"></span> development,
+        coupled with your <span class="experience"></span>-level experience and interest in <span
+          class="puzzle"></span>, we have narrowed it down to one of the following 3 languages:
+      </p>
+      <ul>
+        <li>Ruby</li>
+        <li>C#</li>
+        <li>Python</li>
+      </ul>
+      <h4>Just one more question!</h4>
+
+
+      <form class="formTwo">
         <p>Which of the following animals best describes your personality?</p>
         <div class="radio">
           <label>
