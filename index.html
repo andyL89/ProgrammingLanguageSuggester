@@ -22,6 +22,10 @@
     </form>
     <form id="formTwo">
       <div class="form-group">
+        <label for="name">What is your name?</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
         <label for="operatingSystem">Do you prefer using a Mac or Windows operating system?</label>
         <input id="operatingSystem" class="form-control" type="text">
       </div>
@@ -40,6 +44,13 @@
 
       <button type="submit" class="btn">Find my language!</button>
     </form>
+  </div>
+  <div id="confirmation">
+    <h1>Language Found!</h1>
+    <p>
+      Hello, <span class="name"></span>! Due to your interest in <span class="operatingSystem"></span> lesson for <span class="date"></span>
+      at <span class="time"></span> has been successfully booked. See you then!
+    </p>
   </div>
 </body>
 
