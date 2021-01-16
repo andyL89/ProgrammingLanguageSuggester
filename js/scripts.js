@@ -12,24 +12,27 @@ $(document).ready(function() {
     $(".experience").text(experienceInput);
     $(".puzzle").text(puzzleInput);
 
+    $(".section1").remove();
     $(".confirmation").show();
 
     event.preventDefault();
     
   });
 
-  $("#formTwo").submit(function () {
+  $("#formTwo").submit(function (event) {
     const animal = $("input:radio[name=animal]:checked").val();
     
     if (animal === "Snake") {
       alert("SsssssssSSSssssss!");
+      $(".confirmation").remove();
       $(".python").show();
     } else {
       alert("Shine bright like a diamond!")
+      $(".confirmation").remove();
       $(".ruby").show();
     }
     
-    
+    event.preventDefault();
   })
 
 });
