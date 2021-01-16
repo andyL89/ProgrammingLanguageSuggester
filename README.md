@@ -23,7 +23,7 @@ This project contains the HTML, CSS, and JavaScript code creating an interactive
 
 ## Known Bugs
 
-* 
+* Pressing enter for any answer in the survey will skip unanswered fields. You must click each field and then click "submit" or press enter when all fields are answered.
 
 ## License
 

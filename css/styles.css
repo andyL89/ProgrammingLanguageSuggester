@@ -1,5 +1,10 @@
+body {
+  background-color: rgb(252, 250, 241);
+}
+
 h1 {
   text-align: center;
+  margin-top: 20px;
 }
 
 h2 {
@@ -12,6 +17,7 @@ h3 {
   text-align: center;
   font-size: 125%;
   margin: 30px;
+  color: indianred;
 }
 
 h4 {
@@ -58,10 +64,18 @@ ul {
 
 .python {
   display: none;
+  color: rgb(69, 130, 9);
+  font-size: 150%;
+  text-align: center;
+  margin: 100px;
 }
 
 .ruby {
   display: none;
+  color: rgb(205, 19, 19);
+  font-size: 150%;
+  text-align: center;
+  margin: 100px;
 }
 
 .clickable {
