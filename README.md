@@ -2,7 +2,7 @@
 
 #### An interactive webpage which helps users find a programming language they might like to learn.
 
-#### By **Andrew Lawson**
+#### By **Andrew Lawson © 2021**
 
 ## Technologies Used
 
