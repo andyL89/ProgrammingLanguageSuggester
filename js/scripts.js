@@ -34,7 +34,7 @@ $(document).ready(function () {
       alert("Shine bright like a diamond!");
       $(".confirmation").remove();
       $(".ruby").show();
-    }
+    };
 
     event.preventDefault();
   });
